@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'CoolveticaCondensedRg-Regular';
-    src: url(fonts/CoolveticaCondensedRg-Regular.woff2) format(.woff2);
+    src: url(fonts/CoolveticaCondensedRg-Regular.woff2) format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'NexaScript-Light';
-    src: url(fonts/NexaScript-Light.woff2) format(.woff2);
+    src: url(fonts/NexaScript-Light.woff2) format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Unbounded-Bold';
-    src: url(fonts/Unbounded-Bold.woff2) format(.woff2);
+    src: url(fonts/Unbounded-Bold.woff2) format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Unbounded-Light';
-    src: url(fonts/Unbounded-Light.woff2) format(.woff2);
+    src: url(fonts/Unbounded-Light.woff2) format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Unbounded-Medium';
-    src: url(fonts/Unbounded-Medium.woff2) format(.woff2);
+    src: url(fonts/Unbounded-Medium.woff2) format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Unbounded-Regular';
-    src: url(fonts/Unbounded-Regular.woff2) format(.woff2);
+    src: url(fonts/Unbounded-Regular.woff2) format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -251,26 +251,52 @@
  }
  :root {
     --color-dark: #2B2B2B;
-    --color-yelow: #FFDD72;
+    --color-yellow: #FFDD72;
     --color-light:#FFFFFF;
     --color-purple: #763F94;
     --color-purple-light: #E9BFFF;
+    --color-gray: #717171;
+    --color-orange: #FFC700;
     --border-radius: 32px;
     --border: 1px solid var(--color-dark);
     --font-family-base: 'Unbouded', sans-serif;
     --font-family-accent: 'Coolvetica', 'Nexa Script', sans-serif;
     --input-height: 53px;
-    --container-width: 1920px;
+    --container-width: 1800px;
     --container-padding-x: 15px;
     --transition-duration: 0.2s;
  }
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    color: var(--color-dark);
+ }
+a:hover {
+    color: var(--color-gray);
+}
+.btn {
+    display: inline-flex;
+    height: 54px;
+    background-color: var(--color-yellow);
+    text-decoration: none;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 9px 12px;
+    font-weight: 700;
+    margin-top: 10px;
+}
 
  body {
     font-family: var(--font-family-base);
     font-weight: 400;
     font-size: 24px;
     color: var(--color-dark);
-    background: rgb(255,235,170);
     background: radial-gradient(circle, rgba(255,235,170,1) 0%, rgba(255,255,255,1) 0%, rgba(255,235,170,1) 100%);
  }
 
@@ -283,3 +309,83 @@
  h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
  }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    padding-inline: 60px;
+    flex-wrap: wrap;
+ }
+ .header-menu-list {
+    display: flex;
+    column-gap: 50px;
+ }
+ .header-menu-link {
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+ }
+ .header-menu-link.is-current {
+    border-bottom: var(--border);
+     }
+.header-menu-link:not(.is-current):hover {
+    border-bottom: var(--border);
+     }
+     
+     .btn {
+        display: inline-block;
+        transition: transform 0.5s ease;
+      }
+     .btn:hover {
+        background-color: var(--color-orange);
+        transform: scale(1.1);
+     }
+     .btn:active {
+        transform: scale(0.98);
+        background-color: var(--color-yellow);
+        transition: transform 0.5s ease;
+     }
+     .header-logo img {
+        padding-top: 15px;
+       }
+
+       @media (max-width: 1300px) {
+        .header {
+            flex-wrap: wrap;
+            row-gap: 10px;
+            padding-top: 20px;
+            padding-inline: 15px;
+        }
+        .header-menu {
+            order: 1;
+            flex-basis: 100%;
+            padding-inline: 10px;
+          }
+       }
+       @media (max-width: 650px) {
+        .header {
+            padding-top: 5px;
+        }
+        .header-menu-link {
+            height: 10px;
+            font-size: 15px;
+        }
+        .header-menu-list {
+            column-gap: 20px;
+        }
+         .btn {
+            padding: 5px 8px;
+            font-size: 14px;
+            height: 30px;
+         }
+         .header-logo img {
+            width: 150px;
+            height: 50px;
+         }
+       }
