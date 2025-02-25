@@ -601,7 +601,7 @@ a:hover {
     align-items: center;
     justify-content: center; 
     padding: 60px;
-    z-index: 1;
+    z-index: 0;
   }
 .decorations {
   position: absolute;
@@ -613,7 +613,6 @@ a:hover {
 }
 .decorations img {
   position: absolute;
-  z-index: 0;
 }
 .ellipse-1 {
   top: -665px;
@@ -657,7 +656,6 @@ a:hover {
 .line-1 {
   top: -750px;
   right: -200px;
-  z-index: 0;
 }
 .cube {
   top: -760px;
