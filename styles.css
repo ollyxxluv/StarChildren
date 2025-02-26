@@ -663,3 +663,69 @@ a:hover {
   width: 58px;
   height: 58px;
 }
+.about-us {
+  padding: 160px 60px;
+  height: 860px;
+  position: relative;
+  z-index: 1;
+}
+.welcome-section {
+  display: block; 
+  text-align: center; 
+}
+.welcome-section h3 {
+  font-family: 'Unbounded-Medium';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 89%;
+  background: linear-gradient(91deg, #a54bd6 22.27%, #fcc402 80.88%);
+  color: transparent;
+  background-clip: text;
+  margin-bottom: 9px;
+}
+.stats-section {
+  padding-left: 20px
+}
+
+.stars {
+  margin: 10px 0; 
+  display: inline-block;
+}
+.welcome-section p {
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: -100px;
+}
+.stat-item h4 {
+  font-family: 'CoolveticaCondensedRg-Regular';
+  font-weight: 400;
+  font-size: 96px;
+  margin-bottom: -30px;
+  color: var(--color-light);
+  margin-left: 46px;
+}
+.stat-item p {
+  font-family: 'Unbounded-Regular';
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--color-light);
+  margin-left: 46px;
+}
+.stat-item {
+  border-radius: 32px;
+  width: 1797px;
+  height: 198px;
+  background: linear-gradient(90deg, #763f94 0%, rgba(200, 107, 250, 0.5) 100%);
+  margin-bottom: -100px;
+}
+.decorations-2 img {
+  position: absolute;
+  z-index: 0;
+}
+.line-2 {
+  top: 140px;
+  right: 1020px;
+  stroke-width: 50px;
+  border-radius: 50px;
+stroke-width: 50px;
+}
