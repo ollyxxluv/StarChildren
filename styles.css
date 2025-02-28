@@ -501,7 +501,6 @@ a:hover {
       right: 20px;
       margin-top: 30px;
       z-index: 1;
-      
     }
     .btn2 {
       border: var(--border);
@@ -725,7 +724,5 @@ a:hover {
 .line-2 {
   top: 140px;
   right: 1020px;
-  stroke-width: 50px;
   border-radius: 50px;
-stroke-width: 50px;
 }
