@@ -493,10 +493,8 @@ a:hover {
         font-size: 24px;
     }
     .banner-photo {
-      width: 640px;
-      height: 960px;
+      width: 607px;
       position: absolute;
-      height: auto;
       top: 0px;
       right: 20px;
       margin-top: 30px;
@@ -512,7 +510,7 @@ a:hover {
       text-decoration: none;
       padding: 20px 17px;
       font-weight: 700;
-      margin-top: 70px;
+      margin-top: 40px;
       font-weight: 700;
       font-size: 30px;
       display: flex; 
@@ -599,7 +597,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center; 
-    padding: 60px;
     z-index: 0;
   }
 .decorations {
@@ -614,39 +611,39 @@ a:hover {
   position: absolute;
 }
 .ellipse-1 {
-  top: -665px;
-  right: 742px;
+  top: -640px;
+  right: 675px;
   width: 67px; 
   height: 67px;
 
 }
 .ellipse-2 {
-  top: -365px;
-  right: 950px;
+  top: -300px;
+  right: 890px;
   width: 48px; 
   height: 48px;
 }
 .ellipse-3 {
-  top: -145px;
+  top: -177px;
   right: -15px;
   width: 182px; 
   height: 182px;
 }
 .ellipse-4 {
-  top: -795px;
+  top: -775px;
   right: 420px;
   width: 77px; 
   height: 77px;
 }
 .spiral-1 {
   top: -430px;
-  right: 642px;
+  right: 542px;
   width: 58px;
   height: 58px;
   transform: rotate(-17deg);
 }
 .spiral-2 {
-  top: -30px;
+  top: -100px;
   right: 550px;
   width: 104px;
   height: 104px;
@@ -657,30 +654,30 @@ a:hover {
   right: -200px;
 }
 .cube {
-  top: -760px;
-  right: 1060px;
+  top: -730px;
+  right: 990px;
   width: 58px;
   height: 58px;
 }
 .about-us {
-  padding: 160px 60px;
+  padding: 50px 60px;
   height: 860px;
   position: relative;
-  z-index: 1;
 }
 .welcome-section {
   display: block; 
   text-align: center; 
+  z-index: 1;
+  position: relative;
 }
 .welcome-section h3 {
   font-family: 'Unbounded-Medium';
-  font-weight: 700;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 89%;
-  background: linear-gradient(91deg, #a54bd6 22.27%, #fcc402 80.88%);
+  background: linear-gradient(271deg, #a54bd6 22.27%, #fcc402 80.88%);
   color: transparent;
   background-clip: text;
-  margin-bottom: 9px;
+  margin-bottom: 5px;
 }
 .stats-section {
   padding-left: 20px
@@ -692,37 +689,83 @@ a:hover {
 }
 .welcome-section p {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: -100px;
+}
+.stat-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stat-item {
+  border-radius: var(--border-radius);
+  display: flex;
+  width: 1700px;
+  height: 180px;
+  background: linear-gradient(90deg, #763f94 0%, rgba(200, 107, 250, 0.5) 100%);
+  margin-bottom: 30px; 
+  padding: 20px 40px;
+  align-items: center;
+}
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -15px;
 }
 .stat-item h4 {
   font-family: 'CoolveticaCondensedRg-Regular';
-  font-weight: 400;
   font-size: 96px;
-  margin-bottom: -30px;
   color: var(--color-light);
-  margin-left: 46px;
+  margin: 0;
+  line-height: 1;
 }
 .stat-item p {
   font-family: 'Unbounded-Regular';
-  font-weight: 400;
-  font-size: 48px;
+  font-size: 40px;
   color: var(--color-light);
-  margin-left: 46px;
-}
-.stat-item {
-  border-radius: 32px;
-  width: 1797px;
-  height: 198px;
-  background: linear-gradient(90deg, #763f94 0%, rgba(200, 107, 250, 0.5) 100%);
-  margin-bottom: -100px;
+  margin: 0;
+   
 }
 .decorations-2 img {
   position: absolute;
   z-index: 0;
 }
 .line-2 {
-  top: 140px;
-  right: 1020px;
+  top: 105px;
+  right: 763px;
   border-radius: 50px;
+}
+.ellipse-5 {
+  top: 170px;
+  left: 120px;
+  width: 115px; 
+  height: 115px;
+}
+.ellipse-6 {
+  top: 90px;
+  left: 300px;
+  width: 75px; 
+  height: 75px;
+}
+.ellipse-7 {
+  top: 150px;
+  right: 125px;
+  width: 165px; 
+  height: 165px;
+}
+.ellipse-8 {
+  top: 350px;
+  right: 270px;
+  width: 83px; 
+  height: 83px;
+}
+.rocket {
+  top: 250px;
+  right: 550px;
+}
+.medal {
+  top: 185px;
+  left: 400px;
 }
