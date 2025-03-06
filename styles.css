@@ -280,7 +280,6 @@ a:hover {
 
  body{
     font-family: var(--font-family-base);
-    font-weight: 400;
     font-size: 24px;
     color: var(--color-dark);
     background: radial-gradient(circle, rgba(255,235,170,1) 0%, rgba(255,255,255,1) 0%, rgba(255,235,170,1) 100%);
@@ -637,7 +636,7 @@ a:hover {
 }
 .line-1 {
   top: -750px;
-  right: -200px;
+  right: -60px;
 }
 .cube {
   top: -730px;
@@ -720,8 +719,7 @@ a:hover {
 }
 .line-2 {
   top: 105px;
-  right: 763px;
-  border-radius: 50px;
+  right: 903px;
 }
 .ellipse-5 {
   top: 170px;
@@ -752,7 +750,7 @@ a:hover {
   right: 550px;
 }
 .medal {
-  top: 185px;
+  top: 140px;
   left: 400px;
 }
 .our-values {
