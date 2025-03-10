@@ -955,3 +955,55 @@ a:hover {
   font-size: 28px;
   font-family: var(--font-family-base);
 }
+.advanced-level-programs {
+  padding: 50px 60px;
+}
+.hard-programs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  border-radius: var(--border-radius);
+}
+.intermediate, .intermediate-plus, .upper-intermediate {
+  border-radius: var(--border-radius);
+  background: radial-gradient(circle, rgba(211,129,255,1) 50%, rgba(255,203,69,1) 100%);
+  width: 574px;
+  height: 882px;
+  position: relative;
+  text-align: start;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.hard-programs-container img {
+  width: 473px;
+  height: 313px;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.hard-programs-container h3 {
+  font-family: "Unbounded-Bold";
+  font-size: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hard-programs-container .btn {
+  font-size: 20px;
+  text-align: center;
+  width: 287px;
+  height: 52px;
+  margin-left: auto;
+}
+
+.hard-programs-container p {
+  font-size: 28px;
+  font-family: var(--font-family-base);
+  margin: 0;
+}
