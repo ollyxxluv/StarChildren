@@ -976,7 +976,6 @@ a:hover {
   flex-direction: column;
   justify-content: space-between; 
 }
-
 .hard-programs-container img {
   width: 473px;
   height: 313px;
@@ -985,7 +984,6 @@ a:hover {
   margin-bottom: 20px;
   padding: 0;
 }
-
 .hard-programs-container h3 {
   font-family: "Unbounded-Bold";
   font-size: 36px;
@@ -993,7 +991,6 @@ a:hover {
   justify-content: space-between;
   align-items: center;
 }
-
 .hard-programs-container .btn {
   font-size: 20px;
   text-align: center;
@@ -1001,9 +998,50 @@ a:hover {
   height: 52px;
   margin-left: auto;
 }
-
 .hard-programs-container p {
   font-size: 28px;
   font-family: var(--font-family-base);
   margin: 0;
+}
+.reviews-slider {
+  padding: 50px 60px;
+}
+.description-slider p {
+  font-family: "NexaScript-Light";
+  font-size: 90px;
+}
+.swiper-button-next {
+  width: 83px;
+height: 83px;
+background-color: var(--color-yellow);
+    border-radius: 50%; 
+}
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  border-radius: var(--border-radius);
+  justify-content: center;
+}
+.swiper-slide {
+  border: var(--border);
+border-radius: var(--border-radius);
+width: 498px;
+height: 687px;
+background: var(--color-purple-light);
+padding: 30px;
+}
+.circle {
+  background: url(img/cat-icon.jpg);
+  border-radius: 50%;
+  height: 91px;
+  width: 91px;
+}
+.review h4 {
+  font-family: "Unbounded-Bold";
+  font-size: 28px;
+}
+.review p {
+  font-family: var(--font-family-base);
+  font-size: 24px;
 }
