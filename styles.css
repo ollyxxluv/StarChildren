@@ -756,8 +756,7 @@ a:hover {
 .our-values {
   padding: 50px 60px;
   position: relative;
-  height: auto;
-  margin-top: 200px;
+  margin-top: 260px;
 }
 
 .values-container {
@@ -779,7 +778,7 @@ a:hover {
   color: var(--color-dark);
   position: relative;
   width: 863px;
-  height: auto;
+  height: 977px;
 }
 
 .mission-section {
@@ -788,34 +787,29 @@ a:hover {
   padding: 20px;
   color: var(--color-dark);
   position: relative;
-  width: 800px;
-  height: 820px;
+  width: 863px;
+  height: 611px;
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
   align-items: center; 
 }
-
 .advantage-section h3, .mission-section h3 {
   font-family: 'Unbounded-Medium';
   font-size: 50px;
   text-align: center; 
   margin-top: 150px; 
   color: var(--color-dark);
+  margin-bottom: 30px;
 }
-
 .advantage-list {
-  list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .advantage-list li {
-  margin-bottom: 15px;
   padding-left: 80px;
   position: relative;
 }
-
 .check-mark {
   background-image: url('icon/check-mark-circle.svg');
   background-size: cover;
@@ -826,33 +820,26 @@ a:hover {
   top: 25%;
   transform: translateY(-50%);
 }
-
 .advantage-list li strong {
   font-family: var(--font-family-base);
   display: block;
   font-size: 36px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: var(--color-dark);
 }
 
 .advantage-list li p {
   font-size: 24px;
   text-align: justify;
-  line-height: 1.5;
-  margin: 0;
   color: var(--color-dark);
 }
 
 .mission-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   width: 863px; 
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
   align-items: center; 
-  height: 100%; 
 }
 
 .mission-list li {
@@ -873,7 +860,7 @@ a:hover {
   width: 67px;
   height: 67px;
   position: absolute;
-  left: 40px;
+  left: 35px;
   top: 50%;
   transform: translateY(-50%);
 }
