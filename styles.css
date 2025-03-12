@@ -1117,12 +1117,15 @@ a:hover {
 }
 .contacts {
   padding: 50px 60px;
+  position: relative;
 }
 .contacts-container {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 40px; 
   font-family: "Unbounded-Bold";
+  position: relative;
+  z-index: 1;
 }
 .contacts-container h4{
   font-size: 64px;
@@ -1134,6 +1137,8 @@ a:hover {
 }
 .heading-contacts {
   grid-column: 1 / -1; /* Заголовок занимает всю ширину */
+  position: relative;
+  z-index: 1;
 }
 .heading-contacts h3{
   font-size: 64px;
@@ -1156,20 +1161,42 @@ a:hover {
   color: var(--color-dark);
 }
 
-.adress-section {
+.adress-section, .telephone-section{
   background: linear-gradient(90deg, #c86bfa 0%, #ffdd72 100%);
   width: 100%; 
   height: 253px;
 }
-
-.telephone-section {
-  background: linear-gradient(90deg, #c86bfa 0%, #ffdd72 100%);
-  width: 100%; 
-  height: 253px;
-}
-
 .mail-section {
   background: linear-gradient(180deg, #c86bfa 0%, #ffcb45 100%);
   width: 100%; 
   height: 611px;
+}
+.mail-list {
+  padding: 0;
+  margin: 0;
+}
+.mail-list li {
+  margin-bottom: 60px;
+
+}
+.mail-list strong,
+.mail-list p {
+  margin: 0;
+  display: inline;
+  font-size: 32px;
+}
+.decoration-contacts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.decoration-contacts img {
+  position: absolute;
+}
+.line-7 {
+  top: 120px;
+  width: 100%;
 }
