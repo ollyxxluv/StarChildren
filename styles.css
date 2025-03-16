@@ -1042,7 +1042,7 @@ a:hover {
   font-size: 2rem;
 }
 .heading-contacts {
-  grid-column: 1 / -1; /* Заголовок занимает всю ширину */
+  grid-column: 1 / -1; 
   position: relative;
   z-index: 1;
 }
@@ -1256,7 +1256,7 @@ hr {
 .footer-copyright span {
   margin: 0; 
 }
-@media (max-width: 1919px) {
+@media (max-width: 1500px) {
   .banner-photo {
     display: none;
   }
@@ -1523,6 +1523,9 @@ hr {
     min-height: 8rem;
     padding: 0.25rem;
   }
+  .contacts-left {
+    gap: 1.5rem;
+   }
   .adress-section {
     margin-bottom: 0;
   }
@@ -1712,6 +1715,7 @@ hr {
   }
   .mission-list {
     width: 100%;
+    min-width: 9rem;
   }
   .mission-list li {
     font-size: 1.4rem;
@@ -1730,15 +1734,15 @@ hr {
     top: 0.5rem;
   }
   .cup-icon {
-    right: 8.5rem; 
+    right: 7.3rem; 
   }
   .rocket-icon {
-    right: 8.5rem; 
+    right: 6.2rem; 
   }
   .simple-programs-container,
   .hard-programs-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     justify-content: center;
     align-items: stretch;
@@ -1781,7 +1785,7 @@ hr {
     margin: 0;
   }
   .description-slider p {
-    font-size: 3.5rem; 
+    font-size: 2.5rem; 
   }
   .swiper-wrapper {
     flex-direction: row;
@@ -1790,9 +1794,15 @@ hr {
   }
   .swiper-slide {
     width: 100%;
-    max-width: 23rem; 
-    min-height: 38rem;
+    height: auto;
+    min-height: 25rem;
     margin: 0;
+  }
+  .review h4{
+  font-size: 1.2rem;
+  }
+  .review p {
+    font-size: 1rem;
   }
   .swiper-slide:nth-child(n+3) {
     display: none;
@@ -1815,6 +1825,9 @@ hr {
   .contacts-container {
     grid-template-columns: 1fr;
   }
+  .contacts-left {
+    gap: 1.2rem;
+   }
   .contacts-container h4 {
     font-size: 1.8rem; 
     margin-left: 1rem;
