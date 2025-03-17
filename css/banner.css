@@ -1,0 +1,115 @@
+.banner {
+    padding: 7.5rem 3.75rem;
+    height: 53.75rem;
+    position: relative;
+   }
+   .banner-title {
+    font-family: var(--font-family-medium);
+    font-size: 5.313rem;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(295deg, rgba(200,107,250,1) 41%, rgba(118,63,148,1) 100%);
+   }
+   .banner-info {
+    position: relative; 
+    z-index: 1;
+   }
+   .banner-subtitle {
+    font-family: var(--font-family-base);
+    font-size: 4rem;
+    line-height: 145%;
+    margin-top: 0.625rem;
+   }
+   .banner-text {
+    width: 100%;
+    max-width: 40.625rem; 
+    margin-top: 1.5625rem;
+}
+.justified-text {
+    text-align: justify;
+    line-height: 1.5; 
+    font-family: var(--font-family-base);
+    font-size: 1.5rem;
+}
+.banner-photo {
+  width: 40vw;
+  max-width: 37.9375rem; 
+  position: absolute;
+  top: 0;
+  right: 1.25rem; 
+  margin-top: 1.875rem; 
+  z-index: 1;
+ }
+.hero-section {
+position: relative; 
+display: flex;
+align-items: center;
+justify-content: center; 
+z-index: 0;
+}
+.decorations {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 0;
+}
+.decorations img {
+position: absolute;
+}
+.ellipse-1 {
+top: -40rem; 
+right: 42.1875rem; 
+width: 4.1875rem;
+height: 4.1875rem; 
+}
+
+.ellipse-2 {
+top: -18.75rem; 
+right: 55.625rem; 
+width: 3rem;
+height: 3rem;
+}
+
+.ellipse-3 {
+top: -11.0625rem; 
+right: -0.9375rem; 
+width: 11.375rem; 
+height: 11.375rem;
+}
+
+.ellipse-4 {
+top: -48.4375rem; 
+right: 26.25rem; 
+width: 4.8125rem; 
+height: 4.8125rem; 
+}
+
+.spiral-1 {
+top: -26.875rem; 
+right: 33.875rem; 
+width: 3.625rem; 
+height: 3.625rem;
+transform: rotate(-17deg);
+}
+
+.spiral-2 {
+top: -6.25rem; 
+right: 34.375rem; 
+width: 6.5rem; 
+height: 6.5rem; 
+transform: rotate(-100deg);
+}
+
+.line-1 {
+top: -47.5rem; 
+right: -3.6875rem; 
+}
+
+.cube {
+top: -45.625rem; 
+right: 61.875rem; 
+width: 3.625rem;
+height: 3.625rem; 
+}

@@ -1,0 +1,55 @@
+.level-programs {
+    padding: 3.125rem 3.75rem;
+  }
+  .programs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2.5rem; 
+    border-radius: var(--border-radius);
+  }
+  .beginner,
+  .elementary,
+  .Pre-intermediate,
+  .intermediate,
+  .intermediate-plus,
+  .upper-intermediate {
+    border-radius: var(--border-radius);
+    background: radial-gradient(circle, rgba(211,129,255,1) 50%, rgba(255,203,69,1) 100%);
+    width: 100%;
+    max-width: 35.875rem; 
+    height: 100%;
+    padding: 1.25rem; 
+    position: relative;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  .programs-container img {
+    width: 100%;
+    max-width: 29.5625rem; 
+    height: auto;
+    max-height: 19.5625rem; 
+    align-self: center;
+    padding: 0;
+    margin-bottom: 1.25rem; 
+  }
+  .programs-container h3{
+    font-family: var(--font-family-bold);
+    font-size: 2.25rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .programs-container .btn {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    max-width: 17.9375rem; 
+    height: auto;
+    margin-top: auto;
+  }
+  .programs-container p {
+    font-size: 1.75rem;
+    font-family: var(--font-family-base);
+    flex-grow: 1;
+  }

@@ -1,0 +1,112 @@
+.about-us {
+    padding: 3.125rem 3.75rem;
+    height: 53.75rem;
+    position: relative;
+  }
+  .welcome-section {
+    display: block; 
+    text-align: center; 
+    z-index: 1;
+    position: relative;
+  }
+  .welcome-section h3 {
+    font-family: var(--font-family-medium);
+    font-size: 3.75rem;
+    line-height: 89%;
+    background: linear-gradient(271deg, #a54bd6 22.27%, #fcc402 80.88%);
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 0.3125rem;
+  }
+  .stars {
+    margin: 0.625rem 0; 
+    display: inline-block;
+  }
+  .welcome-section p {
+    font-family: var(--font-family-base);
+    font-size: 1.875rem;
+    margin-bottom: -6.25rem;
+  }
+  .stat-container {
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-item {
+    border-radius: var(--border-radius);
+    display: flex;
+    width: 100%; 
+    max-width: 112.5rem; 
+    height: auto;
+    background: linear-gradient(90deg, #763f94 0%, rgba(200, 107, 250, 0.5) 100%);
+    margin-bottom: 1.875rem; 
+    padding: 1rem 2rem;
+    align-items: center;
+  }
+  .stat-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -0.9375rem;
+  }
+  .stat-item h4 {
+    font-family: var(--font-family-accent);
+    font-size: 6rem;
+    color: var(--color-light);
+    margin: 0;
+    line-height: 1;
+  }
+  .stat-item p {
+    font-family: var(--font-family-base);
+    font-size: 2.5rem;
+    color: var(--color-light);
+    margin: 0;
+     
+  }
+  .decorations-2 img {
+    position: absolute;
+    z-index: 0;
+  }
+  .line-2 {
+    top: 6.5625rem; 
+    right: 56.4375rem; 
+  }
+  
+  .ellipse-5 {
+    top: 10.625rem;
+    left: 7.5rem; 
+    width: 7.1875rem;
+    height: 7.1875rem;
+  }
+  
+  .ellipse-6 {
+    top: 5.625rem; 
+    left: 18.75rem; 
+    width: 4.6875rem; 
+    height: 4.6875rem; 
+  }
+  
+  .ellipse-7 {
+    top: 9.375rem; 
+    right: 7.8125rem; 
+    width: 10.3125rem; 
+    height: 10.3125rem; 
+  }
+  
+  .ellipse-8 {
+    top: 21.875rem; 
+    right: 16.875rem; 
+    width: 5.1875rem; 
+    height: 5.1875rem; 
+  }
+  
+  .rocket {
+    top: 15.625rem;
+    right: 34.375rem; 
+  }
+  
+  .medal {
+    top: 8.75rem; 
+    left: 25rem; 
+  }

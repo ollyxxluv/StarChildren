@@ -1,0 +1,86 @@
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+.btn {
+      display: inline-flex;
+      width: 100%; 
+      max-width: 20.5625rem;
+      height: auto;
+      background-color: var(--color-yellow);
+      text-decoration: none;
+      border: var(--border);
+      border-radius: var(--border-radius);
+      font-family: var(--font-family-bold);
+      padding: 0.5rem 0.8rem;
+      font-size: 1.4rem;
+  }
+     .btn {
+        display: inline-block;
+        transition: transform 0.5s ease;
+      }
+     .btn:hover {
+        background-color: var(--color-orange);
+        transform: scale(1.1);
+     }
+     .btn:active {
+        transform: scale(0.98);
+        background-color: var(--color-yellow);
+        transition: transform 0.5s ease;
+     }
+     .btn2 {
+      border: var(--border);
+      border-radius: var(--border-radius);
+      height: auto;
+      width: 100%; 
+      max-width: 40.625rem;
+      display: inline-flex;
+      background-color: var(--color-yellow);
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      font-family: var(--font-family-bold);
+      margin-top: 2.5rem;
+      font-size: 1.8rem;
+      display: flex; 
+      align-items: center; 
+      z-index: 2; 
+    }
+    .btn2:hover .arrow {
+      transform: rotate(135deg);
+      transition: transform 0.3s ease;
+    }
+a {
+    color: var(--color-dark);
+ }
+a:hover {
+    color: var(--color-gray);
+}
+.visually-hidden {
+  display:none;
+}
+.arrow-circle {
+  width: 4rem;
+  height: 4rem; 
+  background-color: var(--color-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 1.5625rem; 
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  border: var(--border);
+}
+.arrow {
+  width: 1.125rem;
+  height: 1.125rem; 
+  border-right: 0.1875rem solid var(--color-dark); 
+  border-top: 0.1875rem solid var(--color-dark); 
+  transform: rotate(45deg);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  position: relative;
+}

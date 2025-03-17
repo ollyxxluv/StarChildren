@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'CoolveticaCondensedRg-Regular';
+    src: url(../fonts/CoolveticaCondensedRg-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NexaScript-Light';
+    src: url(../fonts/NexaScript-Light.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Bold';
+    src: url(../fonts/Unbounded-Bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Light';
+    src: url(../fonts/Unbounded-Light.woff2) format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Medium';
+    src: url(../fonts/Unbounded-Medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded-Regular';
+    src: url(../fonts/Unbounded-Regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+ }

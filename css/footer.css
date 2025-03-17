@@ -1,0 +1,132 @@
+.footer {
+    background: rgba(61, 0, 102, 0.65);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-base);
+    height: auto;
+    min-height: 25.188rem;
+  }
+  .footer-main {
+    padding-top: 1.875rem;
+    flex-grow: 1;
+    min-height: 0;
+  }
+  .footer-main-inter-container {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    flex: 1;
+  }
+  .footer-header {
+    flex-shrink: 0;
+  }
+  .footer-body {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    align-items: flex-start;
+    font-size: 2.5rem;
+    flex: 1;
+  }
+  .footer-column {
+    display: flex;
+    flex-direction: row;
+    gap: 1.875rem;
+    color: var(--color-light);
+  }
+  .footer-column .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+  }
+  .footer-column .nav-menu li {
+    font-size: 2.5rem;
+    line-height: 125%;
+    color: rgba(255, 255, 255, 0.55); 
+    list-style-type: disc; 
+    margin-left: 1.25rem; 
+  }
+  .footer-column .nav-menu a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55); 
+  }
+  .social-network {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    align-items: center; 
+  }
+  .social-network p {
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+  }
+  .social-network .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    align-items: center;
+  }
+  .support {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    align-items: center; 
+  }
+  .support p {
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+  }
+  .support .chat-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    align-items: center;
+  }
+    .social-icons a img {
+      transition: background 0.3s ease;
+      border-radius: 50%; 
+    }
+    .social-icons a:hover img {
+      background: var(--color-dark); 
+      border-radius: 50%; 
+    }
+    .chat-icons a img {
+      transition: background 0.3s ease;
+      border-radius: 50%; 
+    }
+    .chat-icons a:hover img {
+      background: var(--color-dark);
+      border-radius: 50%; 
+    }
+  hr {
+    border: 0;
+    border-top: 0.0625rem solid var(--color-dark); 
+    margin: 1.25rem 0;
+    width: 100%;
+  }
+  .footer-extra {
+    padding: 0;
+  }
+  .footer-extra-inter-container {
+    padding: 0 3.75rem;
+  }
+  .footer-copyright {
+    font-size: 1.563rem;
+    color: var(--color-dark);
+    padding: 0.625rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    gap: 3.125rem;
+  }
+  .footer-copyright span {
+    margin: 0; 
+  }

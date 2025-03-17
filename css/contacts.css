@@ -1,0 +1,90 @@
+.contacts {
+    padding: 3.125rem 3.75rem;
+    position: relative;
+  }
+  .contacts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2.5rem; 
+    font-family: "Unbounded-Bold";
+    position: relative;
+    z-index: 1;
+  }
+  .contacts-container h4{
+    font-size: 4rem;
+    margin: 0;
+  }
+  .contacts-container p{
+    margin-top: 1.25rem;
+    font-size: 2rem;
+  }
+  .heading-contacts {
+    grid-column: 1 / -1; 
+    position: relative;
+    z-index: 1;
+  }
+  .heading-contacts h3{
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  .contacts-left {
+    display: flex;
+    flex-direction: column;
+    gap: 6.5625rem; 
+  }
+  .contacts-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .adress-section,
+  .telephone-section,
+  .mail-section {
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    color: var(--color-dark);
+  }
+  
+  .adress-section, .telephone-section{
+    background: linear-gradient(90deg, #c86bfa 0%, #ffdd72 100%);
+    width: 100%;
+    height: auto;
+    min-height: 15.8125rem; 
+  }
+  .mail-section {
+    background: linear-gradient(180deg, #c86bfa 0%, #ffcb45 100%);
+    width: 100%; 
+    height: auto;
+    min-height: 38.1875rem;
+  }
+  .mail-list {
+    padding: 0;
+    margin: 0;
+  }
+  .mail-list li {
+    margin-bottom: 3.75rem;
+  
+  }
+  .mail-list strong,
+  .mail-list p {
+    margin: 0;
+    display: inline;
+    font-size: 2rem;
+  }
+  .decoration-contacts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .decoration-contacts img {
+    position: absolute;
+  }
+  .line-7 {
+    top: 7.5rem;
+    width: 100%;
+  }
+  .vidget-map {
+    padding: 3.125rem 3.75rem;
+  }
