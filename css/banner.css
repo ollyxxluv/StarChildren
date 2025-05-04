@@ -113,3 +113,7 @@ right: 61.875rem;
 width: 3.625rem;
 height: 3.625rem; 
 }
+
+.decorations > *:not(.line-1) {
+    animation: floating 4s ease-in-out infinite;
+}
