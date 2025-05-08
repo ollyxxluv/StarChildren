@@ -1,9 +1,8 @@
-// Сначала определяем функцию
+
 function updateNavigation(swiper) {
     const prevBtn = swiper.navigation.prevEl;
     const nextBtn = swiper.navigation.nextEl;
-    
-    // Обновляем состояние кнопок
+
     prevBtn.style.opacity = swiper.isBeginning ? '0.5' : '1';
     prevBtn.style.pointerEvents = swiper.isBeginning ? 'none' : 'auto';
     prevBtn.style.backgroundColor = swiper.isBeginning ? '#cccccc' : 'var(--color-yellow)';
@@ -12,10 +11,8 @@ function updateNavigation(swiper) {
     nextBtn.style.pointerEvents = swiper.isEnd ? 'none' : 'auto';
     nextBtn.style.backgroundColor = swiper.isEnd ? '#cccccc' : 'var(--color-yellow)';
   }
-  
-  // Затем инициализируем Swiper
   const reviewsSwiper = new Swiper('#section4 .swiper', {
-    slidesPerView: 3,
+    slidesPerView: 3, 
     spaceBetween: 20,
     loop: false,
     centeredSlides: false,
@@ -26,30 +23,23 @@ function updateNavigation(swiper) {
     },
     
     breakpoints: {
-      320: {
+      640: {
         slidesPerView: 1
       },
-      768: {
+      800: {
         slidesPerView: 2
       },
       1024: {
+        slidesPerView: 2 
+      },
+      1920: {
         slidesPerView: 3
       }
     },
-    
-    // Используем функцию в обработчиках
     on: {
-      init: function(swiper) {
-        updateNavigation(swiper);
-      },
-      slideChange: function(swiper) {
-        updateNavigation(swiper);
-      },
-      reachEnd: function(swiper) {
-        updateNavigation(swiper);
-      },
-      reachBeginning: function(swiper) {
-        updateNavigation(swiper);
-      }
+      init: updateNavigation,
+      slideChange: updateNavigation,
+      reachEnd: updateNavigation,
+      reachBeginning: updateNavigation
     }
   });
