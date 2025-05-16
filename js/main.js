@@ -7,3 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileMenu.classList.toggle('active');
     });
 });
+
+document.addEventListener('scroll', function() {
+    document.querySelectorAll('.stat-item').forEach((block, index) => {
+        setTimeout(() => {
+            block.classList.add('animate');
+        }, index * 300);
+    });
+});
+

@@ -110,3 +110,22 @@
     top: 8.75rem; 
     left: 25rem; 
   }
+
+  .stat-item {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1.5s ease-out;
+}
+
+.stat-item.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.rocket, .medal, .ellipse {
+  animation: floating 3s ease-in-out infinite;
+}
+
+.ellipse, .ellipse-5, .ellipse-6, .ellipse-7, .ellipse-8{
+  animation: floating 4s ease-in-out infinite;
+}
